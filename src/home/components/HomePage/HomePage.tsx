@@ -79,6 +79,7 @@ const HomePage: React.FC<HomePageProps> = props => {
       <HomeHeader userName={userName} />
       <CardSpacer />
       <Grid>
+        <p>działa</p>
         <div>
           <RequirePermissions
             requiredPermissions={[PermissionEnum.MANAGE_ORDERS]}
